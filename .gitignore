@@ -1,5 +1,8 @@
 # Project-specific
 van-gogh-paintings/*/**
+dataset/
+saturation_pictures/
+saturation_pictures_filtered/
 
 
 
