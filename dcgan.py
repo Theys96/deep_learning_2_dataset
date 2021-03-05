@@ -42,7 +42,7 @@ class DCGAN():
         img = self.generator(z)
 
         # For the combined model we will only train the generator
-        self.discriminator.trainable = True    # False !!!!
+        self.discriminator.trainable = False    # False !!!!
 
         # The discriminator takes generated images as input and determines validity
         valid = self.discriminator(img)
